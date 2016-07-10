@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Auteur]
+(
+	[idAuteur] DECIMAL(6) NOT NULL PRIMARY KEY,
+	[nom] VARCHAR(40) NOT NULL,
+	[prenom] VARCHAR(40) NOT NULL,
+)
